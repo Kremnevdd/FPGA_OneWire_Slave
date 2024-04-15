@@ -1,0 +1,291 @@
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0d08516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Fri Apr 05 17:38:19 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0cdf516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Fri Apr 05 17:38:46 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0cde516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Fri Apr 05 17:41:57 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>MEM</sub_system>
+	<file>/quartus/ccl/mem/mem_segment.cpp</file>
+	<line>764</line>
+	<callstack>
+	0x05a027fd: CCL_ERR + 0x27fd (?err_report_internal_error@@YAXPEBD00H@Z + 0x2d)
+	0x05a02858: CCL_ERR + 0x2858 (?err_report_fatal_error@@YAXPEBD00H@Z + 0x8)
+	0x01eb1e8b: ccl_mem + 0x1e8b (?clear_mem_check_memory@MEM_MANAGER@@SAXXZ + 0xdb)
+	0x01ebcaa3: ccl_mem + 0xcaa3 (?locked_allocate@MEM_SEGMENT_INTERNAL@@AEAAPEAXPEAD_K1PEAVMEM_TRACKER_DATA@@@Z + 0x43)
+	0x01eba894: ccl_mem + 0xa894 (?allocate@MEM_SEGMENT_INTERNAL@@QEAAPEAX_KPEAVMEM_TRACKER_THUNK@@PEBD@Z + 0xd4)
+	0x01df5974: CCL_MSG + 0x5974 (?set_string@MSG_IDENTIFIER@@QEAAXAEBV?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@@Z + 0x544)
+	0x01dfb07c: CCL_MSG + 0xb07c (?clear_msg_list@MSG_REPORT_FILE@@AEAAXXZ + 0x12c)
+	0x01e0162b: CCL_MSG + 0x1162b (??1MSG_SUPPRESS_RULE@@QEAA@XZ + 0x16db)
+	0x01e05550: CCL_MSG + 0x15550 (??6MSG_BASE@@QEAAXAEAV?$PDB_SEGMENT_TEMPLATE@VPDB_HDB_SEG_BASE@@@@@Z + 0x178)
+	0x01e20d50: CCL_MSG + 0x30d50 (??6MSG_POST@@QEAAXAEAV?$PDB_SEGMENT_TEMPLATE@VPDB_HDB_SEG_BASE@@@@@Z + 0x68)
+	0x04394bd2: DB_PDB + 0x4bd2 (?finish_reading@PDB_VIRTUAL_OBJECT_INFO@@UEAAXAEAVPDB_SEGMENT_READER@@@Z + 0x52)
+	0x0439414e: DB_PDB + 0x414e (?finish_reading_all@PDB_SEGMENT_READER@@QEAAXXZ + 0x3e)
+	0x043a5c84: DB_PDB + 0x15c84 (?pdb_read_ptr@@YA_NAEAVPDB_SEGMENT_READER@@P6AXAEAVPDB_SEGMENT@@AEAPEAX@Z2@Z + 0x54)
+	0x04faca58: synth_sgn + 0xdca58 (DllSgnStart + 0xcbee8)
+	0x04fb37e1: synth_sgn + 0xe37e1 (DllSgnStart + 0xd2c71)
+	0x04fc2f33: synth_sgn + 0xf2f33 (DllSgnStart + 0xe23c3)
+	0x04fd7fa1: synth_sgn + 0x107fa1 (DllSgnStart + 0xf7431)
+	0x04f9c352: synth_sgn + 0xcc352 (DllSgnStart + 0xbb7e2)
+	0x04fa5f0c: synth_sgn + 0xd5f0c (DllSgnStart + 0xc539c)
+	0x04faab81: synth_sgn + 0xdab81 (DllSgnStart + 0xca011)
+	0x04ede798: synth_sgn + 0xe798
+	0x04ee09c5: synth_sgn + 0x109c5 (?sgn_start@@YA_NPEAVCMP_FACADE@@AEBV?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@AEBV?$vector@V?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@V?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@@@@3@AEBV?$vector@W4SMART_ACTION@HDB_CMP_ACTION_PT_INSTANCE@@V?$MEM_STL_ALLOCATOR@W4SMART_ACTION@HDB_CMP_ACTION_PT_INSTANCE@@@@@3@PEA_NPEAUSGN_GENERATED_SIMGEN_INFO@@@Z + 0x1e5)
+	</callstack>
+	<error>Attempting to allocate 1179801184 bytes</error>
+	<date>Fri Apr 05 17:44:41 2024</date>
+	<version>Quartus II 64-Bit Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>Attempting to allocate 1179801184 bytes
+Quartus II 64-Bit Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0d00516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Tue Apr 09 12:01:34 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0d05516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Tue Apr 09 12:01:46 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0ce1516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Tue Apr 09 12:02:18 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0ce2516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Tue Apr 09 12:02:44 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0d09516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Tue Apr 09 12:06:53 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0cee516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Tue Apr 09 16:55:45 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0d03516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Tue Apr 09 16:56:45 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0cde516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Wed Apr 10 15:40:33 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0ce2516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Wed Apr 10 15:40:54 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0ce4516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Wed Apr 10 15:41:34 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0ce3516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Wed Apr 10 15:41:50 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0d02516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Wed Apr 10 15:44:21 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0ce2516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Thu Apr 11 11:45:03 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>BPM</sub_system>
+	<file>/quartus/db/bpm/bpm_boundary_port_hide.cpp</file>
+	<line>1336</line>
+	<callstack>
+	0x0d0a516e:
+	</callstack>
+	<error>!bp_iterm-&gt;is_inverted()</error>
+	<date>Mon Apr 15 16:18:38 2024</date>
+	<version>Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version</version>
+	<full_error>!bp_iterm-&gt;is_inverted()
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version </full_error>
+</internal_error>
+

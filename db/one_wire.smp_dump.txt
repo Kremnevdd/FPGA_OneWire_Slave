@@ -1,0 +1,21 @@
+
+State Machine - |one_wire|flag
+Name flag.0000 flag.0010 flag.0001 
+flag.0000 0 0 0 
+flag.0001 1 0 1 
+flag.0010 1 1 0 
+
+State Machine - |one_wire|state
+Name state.ERR state.END_BYTE state.SECOND_HALF_TS state.FIRST_HALF_TS state.WAITING_FOR_THE_BIT state.WAITING_FOR_VCC state.SLAVE_PRESENCE_PULSE state.MASTER_DROP state.MASTER_PULSE_WAIT state.MASTER_PULSE state.IDLE_STATE state.PRE_IDLE_STATE 
+state.PRE_IDLE_STATE 0 0 0 0 0 0 0 0 0 0 0 0 
+state.IDLE_STATE 0 0 0 0 0 0 0 0 0 0 1 1 
+state.MASTER_PULSE 0 0 0 0 0 0 0 0 0 1 0 1 
+state.MASTER_PULSE_WAIT 0 0 0 0 0 0 0 0 1 0 0 1 
+state.MASTER_DROP 0 0 0 0 0 0 0 1 0 0 0 1 
+state.SLAVE_PRESENCE_PULSE 0 0 0 0 0 0 1 0 0 0 0 1 
+state.WAITING_FOR_VCC 0 0 0 0 0 1 0 0 0 0 0 1 
+state.WAITING_FOR_THE_BIT 0 0 0 0 1 0 0 0 0 0 0 1 
+state.FIRST_HALF_TS 0 0 0 1 0 0 0 0 0 0 0 1 
+state.SECOND_HALF_TS 0 0 1 0 0 0 0 0 0 0 0 1 
+state.END_BYTE 0 1 0 0 0 0 0 0 0 0 0 1 
+state.ERR 1 0 0 0 0 0 0 0 0 0 0 1 

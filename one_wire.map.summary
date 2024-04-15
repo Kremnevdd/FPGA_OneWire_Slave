@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Apr 15 16:19:15 2024
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Full Version
+Revision Name : one_wire
+Top-level Entity Name : one_wire
+Family : Cyclone III
+Total logic elements : 1,323
+    Total combinational functions : 776
+    Dedicated logic registers : 1,323
+Total registers : 1323
+Total pins : 42
+Total virtual pins : 0
+Total memory bits : 303,104
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

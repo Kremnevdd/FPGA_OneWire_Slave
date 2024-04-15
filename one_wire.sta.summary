@@ -1,0 +1,125 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 100C Model Setup 'reg_divided_clk[0]'
+Slack : -5.268
+TNS   : -849.857
+
+Type  : Slow 1200mV 100C Model Setup 'clk'
+Slack : -4.866
+TNS   : -180.962
+
+Type  : Slow 1200mV 100C Model Setup 'altera_internal_jtag|tckutap'
+Slack : -0.584
+TNS   : -7.731
+
+Type  : Slow 1200mV 100C Model Hold 'clk'
+Slack : -0.280
+TNS   : -0.280
+
+Type  : Slow 1200mV 100C Model Hold 'altera_internal_jtag|tckutap'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'reg_divided_clk[0]'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Recovery 'reg_divided_clk[0]'
+Slack : -3.373
+TNS   : -242.591
+
+Type  : Slow 1200mV 100C Model Recovery 'altera_internal_jtag|tckutap'
+Slack : 48.136
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Removal 'altera_internal_jtag|tckutap'
+Slack : 1.045
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Removal 'reg_divided_clk[0]'
+Slack : 3.759
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Setup 'reg_divided_clk[0]'
+Slack : -4.602
+TNS   : -717.186
+
+Type  : Slow 1200mV -40C Model Setup 'clk'
+Slack : -4.254
+TNS   : -157.652
+
+Type  : Slow 1200mV -40C Model Setup 'altera_internal_jtag|tckutap'
+Slack : -0.430
+TNS   : -1.835
+
+Type  : Slow 1200mV -40C Model Hold 'clk'
+Slack : -0.302
+TNS   : -0.302
+
+Type  : Slow 1200mV -40C Model Hold 'altera_internal_jtag|tckutap'
+Slack : -0.040
+TNS   : -0.040
+
+Type  : Slow 1200mV -40C Model Hold 'reg_divided_clk[0]'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Recovery 'reg_divided_clk[0]'
+Slack : -2.837
+TNS   : -203.960
+
+Type  : Slow 1200mV -40C Model Recovery 'altera_internal_jtag|tckutap'
+Slack : 48.536
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Removal 'altera_internal_jtag|tckutap'
+Slack : 0.913
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Removal 'reg_divided_clk[0]'
+Slack : 3.301
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Setup 'reg_divided_clk[0]'
+Slack : -2.022
+TNS   : -227.655
+
+Type  : Fast 1200mV -40C Model Setup 'clk'
+Slack : -1.737
+TNS   : -60.073
+
+Type  : Fast 1200mV -40C Model Setup 'altera_internal_jtag|tckutap'
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'clk'
+Slack : -0.239
+TNS   : -0.239
+
+Type  : Fast 1200mV -40C Model Hold 'altera_internal_jtag|tckutap'
+Slack : -0.137
+TNS   : -1.008
+
+Type  : Fast 1200mV -40C Model Hold 'reg_divided_clk[0]'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Recovery 'reg_divided_clk[0]'
+Slack : -1.165
+TNS   : -83.736
+
+Type  : Fast 1200mV -40C Model Recovery 'altera_internal_jtag|tckutap'
+Slack : 48.997
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Removal 'altera_internal_jtag|tckutap'
+Slack : 0.487
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Removal 'reg_divided_clk[0]'
+Slack : 1.854
+TNS   : 0.000
+
+------------------------------------------------------------
